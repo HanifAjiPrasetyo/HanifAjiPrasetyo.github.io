@@ -1,0 +1,22 @@
+.jumbotron {
+  margin-top: 3rem;
+  padding-top: 5rem;
+  background-color: #caaeae;
+}
+
+.card {
+  border: none;
+}
+
+#contact {
+  background-color: #caaeae;
+}
+
+.card-text {
+  font-weight: lighter;
+  font-size: 5;
+}
+
+section {
+  padding-top: 5rem;
+}

@@ -16,22 +16,22 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fw-bold fs-6 fixed-top shadow" style="background-color: rgb(134, 7, 7)">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top shadow">
       <div class="container">
         <a class="navbar-brand fst-italic" href="#">HanifAjiP</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link js-scroll-trigger" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -96,11 +96,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="row justify-content-center mt-4">
-          <div class="col-md-auto mb-3">
-            <h4><i>Hobbies</i></h4>
-          </div>
-        </div> -->
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -154,5 +149,13 @@
       <h4>Created With <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/hanip_yokkk/" class="text-decoration-none">Hanif Aji Prasetyo</a></h4>
     </footer>
     <!-- Footer End -->
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+      $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
   </body>
 </html>
